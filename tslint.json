@@ -16,11 +16,8 @@
       "camelCase"
     ],
     "component-selector": [
-      true,
-      "element",
-      "app",
-      "kebab-case"
-    ],
+      false
+    ]
     "import-blacklist": [
       true,
       "rxjs/Rx"
