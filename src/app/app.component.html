@@ -2,9 +2,11 @@
   <h1 style="color: blue;">grokonez.com</h1>
   <h3>Angular - Django App</h3>
   <nav>
-    <a routerlink="customer" class="btn btn-primary active" role="button" routerlinkactive="active">Customers</a>
-    <a routerlink="add" class="btn btn-primary active" role="button" routerlinkactive="active">Add</a>
-    <a routerlink="findbyage" class="btn btn-primary active" role="button" routerlinkactive="active">Search</a>
+    <a routerLink="/customer" class="btn btn-primary active" role="button" routerlinkactive="active">Customers</a>
+    <a routerLink="/add" class="btn btn-primary" role="button">Add</a>
+    <a routerLink="/findbyage" class="btn btn-primary" role="button" >Search</a>
   </nav>
+</div>
+<div class="container">
   <router-outlet></router-outlet>
 </div>
